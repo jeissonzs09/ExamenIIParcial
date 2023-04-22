@@ -42,17 +42,9 @@ namespace Vista
 
             if (usuarios != null)
             {
-                if (usuarios.EstaActivo)
-                {
-                    Menu menuFormulario = new Menu();
-                    this.Hide();
-                    menuFormulario.Show();
-                }
-                else
-                {
-                    MessageBox.Show("El usuario no esta activo");
-                }
-
+                Menu menuFormulario = new Menu();
+                this.Hide();
+                menuFormulario.Show();
             }
 
             else
